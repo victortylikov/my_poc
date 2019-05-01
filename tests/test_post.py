@@ -24,3 +24,9 @@ def test_post_health_check4():
     post = Post()
     post_response = post.get_post()
     assert post_response.status_code == 200
+    
+    
+def test_post_health_check55():
+    post = Post()
+    post_response = post.get_post()
+    assert post_response.status_code == 200
