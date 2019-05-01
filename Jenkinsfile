@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Start tests'
-        sh 'pytest -v'
+        sh 'cd /Users/viktortyulikov/PycharmProjects/prototype/my_poc; pytest -v'
       }
     }
   }
