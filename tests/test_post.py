@@ -37,3 +37,10 @@ def test_post_health_check533w5():
     post = Post()
     post_response = post.get_post()
     assert post_response.status_code == 200
+
+
+#dsfsd
+def test_post_health_check533335():
+    post = Post()
+    post_response = post.get_post()
+    assert post_response.status_code == 200
