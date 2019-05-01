@@ -1,0 +1,14 @@
+*.log
+.hypothesis/
+.idea/
+.cache
+**/__pycache__/
+assets/
+backup_logs/
+logs/
+venv/
+env/
+report.html
+log.html
+options.py
+**/.pytest_cache/
