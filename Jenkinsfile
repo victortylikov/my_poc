@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         echo 'Start tests'
-        sh 'purest -v'
+        sh 'pytest -v'
       }
     }
   }
